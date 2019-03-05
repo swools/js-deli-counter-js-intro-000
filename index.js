@@ -18,5 +18,6 @@ function currentLine(line) {
     for (let i = 0; i < line.length; i++) {
       line.push(`${i + 1}. ${line[i]}`)
     }
+    return line
   }
 }
