@@ -1,5 +1,5 @@
 function takeANumber(line, name) {
-  for (let i = 0; i < line.length; i++) {
+  for (let i = 0; i <= line.length; i++) {
     var pos = i + 1;
     return `Welcome, ${name}. You are number ${pos} in line.`
     i++;
